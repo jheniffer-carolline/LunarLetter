@@ -1,0 +1,243 @@
+.img-center {
+    text-align: center;
+}
+
+.size {
+    height: 50%;
+    width: 85%;
+}
+
+.img-bg {
+    background-image: url(/assets/Imagens/fundo.jpeg);
+
+    min-height: 695px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-slogan {
+    width: 550px;
+    height: 1000px;
+}
+
+.img-logopng {
+    width: 150px;
+    height: 100px;
+    position: relative;
+}
+
+.logo-menu {
+    width: 150px;
+    height: 95px;
+}
+
+.fonte-branca {
+    color: white;
+}
+
+
+.container-img {
+    width: 1110px;
+    height: 350px;
+}
+
+
+.img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.texto-vertical {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.2cm;
+    display: block;
+    width: 550px;
+    padding: 25px;
+    margin: 25px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.body {
+    padding: 20px;
+}
+
+/*.container {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}*/
+
+.junto-container {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.borda {
+    border-radius: 20cm;
+
+}
+
+.back-c {
+    background: linear-gradient(rgb(17, 240, 225));
+    background-image: url("")
+}
+
+.back-g {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 160vh;
+    margin-left: 155px;
+    border-radius: 0.2cm;
+    box-shadow: 0px 10px 50px;
+    display: block;
+}
+
+input {
+    box-shadow: 0px 10px 10px;
+
+}
+
+.select {
+    box-shadow: 0px 10px 10px;
+}
+
+.redes {
+    position: absolute;
+    display: flex;
+}
+
+.img-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+/* Rodapé */
+
+.pagamentos {
+    width: 75px;
+    height: 75px;
+}
+
+/*
+.img {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 5px;
+}
+
+*/
+.img-roda {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.roda-pé {
+    padding: 10px;
+}
+
+.fundo {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 5px 5px;
+}
+
+.fundo-2 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 5px;
+}
+
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-cor {
+    color: black;
+}
+
+
+p {
+    color: black;
+    text-decoration: none;
+}
+
+h3 {
+    text-decoration: none;
+}
+
+span {
+    color: black;
+}
+
+.linha {
+    border-right: gray 1px solid;
+
+}
+
+.linha-2 {
+    border-right: gray 1px solid;
+    display: inline;
+    justify-content: space-between;
+}
+
+.coluna {
+    display: inline;
+}
+
+.img-qr {
+    width: 100px;
+    height: 100px;
+}
+
+.img-banco{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 5px;
+}
+    
+
+.color {
+    color: #363363;
+}
+
+/*
+.legenda {
+    margin-left: -75px;
+    position: absolute;
+    margin-top: 54px !important;
+}
+*/
+
+.legenda p {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+}
